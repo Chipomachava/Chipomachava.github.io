@@ -19,7 +19,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
   [style*="grid-template-columns: repeat(12"]{grid-template-columns:1fr !important;row-gap:40px !important}
   [style*="grid-column: span"]{grid-column:auto !important}
   [style*="grid-template-columns: repeat(3"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
-  [style*="grid-template-columns: repeat(4"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+  [style*="grid-template-columns: repeat(4"],[style*="grid-template-columns: repeat(5"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
   article[style*="grid-template-columns: repeat(2"]{grid-template-columns:1fr !important;padding:32px !important}
   h1[style]{font-size:88px !important}
   #contact h2[style]{font-size:64px !important}
@@ -29,7 +29,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
   nav [href="#work"],nav [href="#skills"],nav [href="#experience"]{display:none !important}
   section > div[style], #top[style], footer > div[style]{padding-left:20px !important;padding-right:20px !important}
   #top[style]{padding-top:64px !important;padding-bottom:64px !important}
-  [style*="grid-template-columns: repeat(3"],[style*="grid-template-columns: repeat(4"]{grid-template-columns:1fr !important}
+  [style*="grid-template-columns: repeat(3"],[style*="grid-template-columns: repeat(4"],[style*="grid-template-columns: repeat(5"]{grid-template-columns:1fr !important}
   [style*="grid-template-columns: 160px"]{grid-template-columns:1fr !important;gap:6px !important}
   [style*="justify-content: space-between; align-items: end"]{flex-direction:column;align-items:flex-start !important}
   article[style*="grid-template-columns: repeat(2"]{padding:24px !important}
@@ -83,9 +83,9 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="display: flex; flex-direction: column; gap: 16px">
 <div style="display: flex; gap: 12px"><span style="margin-top: 7px; width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: #0E6B5C"></span><div><div style="font-weight: 600; font-size: 15px">AEWS</div><div style="font-size: 14px; color: #4A4D55; line-height: 1.45">Honours research — deploying on Render + Vercel</div></div></div>
 <div style="display: flex; gap: 12px"><span style="margin-top: 7px; width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: #0E6B5C"></span><div><div style="font-weight: 600; font-size: 15px">MigratePulse v2</div><div style="font-size: 14px; color: #4A4D55; line-height: 1.45">PII detection &amp; masking for data migrations</div></div></div>
-<div style="display: flex; gap: 12px"><span style="margin-top: 7px; width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: #0E6B5C"></span><div><div style="font-weight: 600; font-size: 15px">Slate</div><div style="font-size: 14px; color: #4A4D55; line-height: 1.45">Job platform heading to Azure</div></div></div>
+<div style="display: flex; gap: 12px"><span style="margin-top: 7px; width: 7px; height: 7px; flex-shrink: 0; border-radius: 50%; background: #0E6B5C"></span><div><div style="font-weight: 600; font-size: 15px">Slate</div><div style="font-size: 14px; color: #4A4D55; line-height: 1.45">Job portal, live on Render</div></div></div>
 </div>
-<div style="border-top: 1px dashed #CFC9BA; padding-top: 16px; font-size: 14px; color: #3F424A; line-height: 1.5">BSc Honours Computer Science, UFS · Graduating Dec 2026</div>
+<div style="border-top: 1px dashed #CFC9BA; padding-top: 16px; font-size: 14px; color: #3F424A; line-height: 1.5">BSc Honours Computer Science, UFS · Finishing November 2026</div>
 </aside>
 </section>
 
@@ -124,10 +124,6 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Render</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Vercel</span>
 </div>
-<div style="display: flex; gap: 20px; font-size: 15px; font-weight: 500">
-<a href="#" style="color: #0E6B5C">[Live demo link] ↗</a>
-<a href="#contact" style="color: #0E6B5C">Walkthrough on request ↗</a>
-</div>
 </div>
 <!-- pipeline visual -->
 <div style="background: #15171C; border-radius: 6px; padding: 36px; display: flex; flex-direction: column; gap: 14px; color: #E9E5DA; font-family: 'IBM Plex Mono', ui-monospace, monospace">
@@ -150,6 +146,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #4A4D55">Data engineering</div>
 <h3 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.05">MigratePulse</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">An enterprise data migration platform: CSV upload, field mapping, batched execution and a quarantine system for failed records. Now being rebuilt with PII detection and masking, AI-assisted mapping and an audit trail.</p>
+<a href="https://github.com/Chipomachava/migratepulse-core" style="font-size: 14px; font-weight: 500; color: #0E6B5C">View on GitHub ↗</a>
 <div style="margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: #3A3D44">
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">FastAPI</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">SQLAlchemy</span>
@@ -160,13 +157,13 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <article style="background: #FBFAF6; border: 1px solid #D9D4C7; border-radius: 6px; padding: 30px; display: flex; flex-direction: column; gap: 16px">
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #4A4D55">Full-stack web</div>
 <h3 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.05">Slate Jobs</h3>
-<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">A job platform where employers post positions and candidates apply, with role-based control over who can do what. Deploying on Azure App Service with Azure SQL.</p>
-<a href="https://github.com/Chipomachava/slate-jobs" style="font-size: 14px; font-weight: 500; color: #0E6B5C">github.com/Chipomachava/slate-jobs ↗</a>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">A job platform where employers post positions and candidates apply, with JWT authentication and role-based access control. Live on Render.</p>
+<a href="https://slate-jobs.onrender.com" style="font-size: 14px; font-weight: 500; color: #0E6B5C">View live site ↗</a>
 <div style="margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: #3A3D44">
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Node.js</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Express</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">SQL Server</span>
-<span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Azure</span>
+<span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Render</span>
 </div>
 </article>
 
@@ -184,7 +181,8 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <article style="background: #FBFAF6; border: 1px solid #D9D4C7; border-radius: 6px; padding: 30px; display: flex; flex-direction: column; gap: 16px">
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #4A4D55">Machine learning</div>
 <h3 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.05">DDoS Detection Pipeline</h3>
-<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">A machine-learning pipeline that classifies network traffic to detect DDoS attacks at 95%+ accuracy, with a Streamlit dashboard for exploring results.</p>
+<p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">A machine-learning pipeline that detects DDoS attacks in the CICIDS2017 dataset at 95%+ accuracy, with data-leakage checks and a Streamlit dashboard for exploring results.</p>
+<a href="https://github.com/Chipomachava/ddos-detection" style="font-size: 14px; font-weight: 500; color: #0E6B5C">View on GitHub ↗</a>
 <div style="margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: #3A3D44">
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Python</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">scikit-learn</span>
@@ -197,6 +195,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; color: #4A4D55">Android</div>
 <h3 style="margin: 0; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 32px; line-height: 1.05">CyberSafeCheck</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #2B2E35">A digital-footprint self-assessment app with a real Have I Been Pwned password-breach check, local history, scheduled reminders and in-app security resources.</p>
+<a href="https://github.com/Chipomachava/CyberSafeCheck" style="font-size: 14px; font-weight: 500; color: #0E6B5C">View on GitHub ↗</a>
 <div style="margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: #3A3D44">
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Kotlin</span>
 <span style="padding: 5px 10px; border: 1px solid #CFC9BA; border-radius: 999px">Room</span>
@@ -239,7 +238,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">02 / Frontend</div><div style="font-size: 17px; line-height: 1.6">React · TypeScript · Angular · Vite · HTML · CSS · JavaScript</div></div>
 <div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">03 / Data</div><div style="font-size: 17px; line-height: 1.6">Python · pandas · scikit-learn · PostgreSQL · SQL Server · SSIS · Streamlit</div></div>
 <div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">04 / Mobile</div><div style="font-size: 17px; line-height: 1.6">Kotlin · Android · Room · Coroutines · WorkManager · secure IPC</div></div>
-<div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">05 / Cloud &amp; tools</div><div style="font-size: 17px; line-height: 1.6">Render · Vercel · Neon · Azure App Service &amp; SQL · Git &amp; GitHub</div></div>
+<div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">05 / Cloud &amp; tools</div><div style="font-size: 17px; line-height: 1.6">Render · Vercel · Neon · Git &amp; GitHub</div></div>
 <div style="background: #F3F0E8; padding: 32px; display: flex; flex-direction: column; gap: 14px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: #0E6B5C">06 / Design &amp; games</div><div style="font-size: 17px; line-height: 1.6">UML &amp; ERD modelling · SUS usability testing · Construct 3</div></div>
 </div>
 </div>
@@ -256,7 +255,7 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="grid-column: span 8; display: flex; flex-direction: column">
 <div style="display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; padding: 28px 0; border-top: 1px solid #15171C">
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; color: #3F424A">2026</div>
-<div style="display: flex; flex-direction: column; gap: 6px"><div style="font-size: 20px; font-weight: 600">BSc Honours, Computer Science</div><div style="font-size: 15px; color: #3F424A">University of the Free State, Bloemfontein · Graduating December 2026</div><div style="font-size: 15px; line-height: 1.55; color: #2B2E35">Research project: Academic Early Warning System, supervised by Dr Adebola Musa.</div></div>
+<div style="display: flex; flex-direction: column; gap: 6px"><div style="font-size: 20px; font-weight: 600">BSc Honours, Computer Science</div><div style="font-size: 15px; color: #3F424A">University of the Free State · Finishing November 2026</div><div style="font-size: 15px; line-height: 1.55; color: #2B2E35">Research project: Academic Early Warning System, supervised by Dr Adebola Musa.</div></div>
 </div>
 <div style="display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; padding: 28px 0; border-top: 1px solid #D9D4C7">
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; color: #3F424A">Current</div>
@@ -279,11 +278,12 @@ a:focus-visible{outline:2px solid #0E6B5C;outline-offset:3px}
 <div style="max-width: 1200px; margin: 0 auto; padding: 112px 48px 96px; box-sizing: border-box; display: flex; flex-direction: column; gap: 48px">
 <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; color: #8FD6C4">§ 04 — Contact</div>
 <h2 style="margin: 0; max-width: 900px; font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; font-size: 96px; line-height: 0.98; letter-spacing: -0.025em">Let's build something <span style="font-style: italic; color: #8FD6C4">that ships.</span></h2>
-<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; border-top: 1px solid #3A3D44; padding-top: 32px">
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 24px; border-top: 1px solid #3A3D44; padding-top: 32px">
 <div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">Email</div><a href="mailto:magagulachipo@gmail.com" style="font-size: 17px; color: #F3F0E8">magagulachipo@gmail.com</a></div>
 <div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">LinkedIn</div><a href="https://www.linkedin.com/in/chipo-machava-257558245" style="font-size: 17px; color: #F3F0E8">chipo-machava ↗</a></div>
 <div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">GitHub</div><a href="https://github.com/Chipomachava" style="font-size: 17px; color: #F3F0E8">Chipomachava ↗</a></div>
-<div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">Based in</div><div style="font-size: 17px">Gauteng · open to Johannesburg &amp; relocation</div></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">Phone</div><a href="tel:+27763184650" style="font-size: 17px; color: #F3F0E8">076 318 4650</a></div>
+<div style="display: flex; flex-direction: column; gap: 8px"><div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #A9A597">Based in</div><div style="font-size: 17px">Mpumalanga · open to Johannesburg &amp; relocation</div></div>
 </div>
 </div>
 </section>
